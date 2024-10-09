@@ -26,9 +26,7 @@ class ScenarioElement {
  */
 public class Scenario extends Thread {
 
-
     private Lock lock = new ReentrantLock();
-
 
     private final List<ScenarioElement> myElements = new LinkedList<>();
 
